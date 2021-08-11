@@ -20,6 +20,8 @@ If any number greater than 5 is put it will display a message "No such book, Ple
 
 If a string is passed it will display a message "Please enter a numeric value from 0-5 or 'all' to list all books".
 
+![Output](https://i.ibb.co/850DYX8/Capture.png)
+
 The Dockerfile for this project is available.
 
 The Docker image is available publicly at https://hub.docker.com/repository/docker/plaulkar/http-api
