@@ -16,6 +16,8 @@ For e.g. if the details of the book which has id 3 is required enter the link as
 
 If any number greater than 5 is put it will display a message "No such book, Please enter a value from 0-5 or 'all' to list all books".
 
+![Output](https://i.ibb.co/wpdwx3W/Capture.png)
+
 If a string is passed it will display a message "Please enter a numeric value from 0-5 or 'all' to list all books".
 
 The Dockerfile for this project is available.
