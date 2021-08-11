@@ -12,4 +12,4 @@ If details of only a specific book is required we can replace the 'all' keyword 
 
 For e.g. if the details of the book which has id 3 is required enter the link as [book-3](https://demo-http-api.herokuapp.com/http_api/v1/books/3). The below output will be shown
 
-![Output](https://i.ibb.co/9qNJV8q/Capture.png)
+![Output](https://i.ibb.co/RgD8jVC/Capture.png)
