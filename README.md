@@ -22,6 +22,9 @@ If a string is passed it will display a message "Please enter a numeric value fr
 
 ![Output](https://i.ibb.co/850DYX8/Capture.png)
 
+
+**Docker Implementation**
+
 The Dockerfile for this project is available.
 
 The Docker image is available publicly at https://hub.docker.com/repository/docker/plaulkar/http-api
@@ -37,6 +40,8 @@ Once the container is deployed enter below link to view the API
 http://[localhost or host ip]:8000/http_api/v1/books/all to view all books
 
 To get details of books of id between 0-5 visit http://[localhost or host ip]:8000/http_api/v1/books/[id]
+
+**Kubernetes Implementation**
 
 Kubernetes deployment and service YAML file is also available.
 
