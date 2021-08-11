@@ -13,3 +13,19 @@ If details of only a specific book is required we can replace the 'all' keyword 
 For e.g. if the details of the book which has id 3 is required enter the link as [book-3](https://demo-http-api.herokuapp.com/http_api/v1/books/3). The below output will be shown
 
 ![Output](https://i.ibb.co/RgD8jVC/Capture.png)
+
+The Dockerfile for this project is available.
+
+The Docker image is available publicly at https://hub.docker.com/repository/docker/plaulkar/http-api
+
+To run a container from this image, enter below command
+
+docker run -d --name http-api -p 8000:8000 plaulkar/http-api:latest
+
+Container name is http-api, port at which both the host and the container will listen to is 8000.
+
+Once the container is deployed enter below link to view the API
+
+http://[localhost or host ip]:8000/http_api/v1/books/all to view all books
+
+To get details of books of id between 0-5 visit http://[localhost or host ip]:8000/http_api/v1/books/[id]
