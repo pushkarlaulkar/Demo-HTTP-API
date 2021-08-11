@@ -14,6 +14,10 @@ For e.g. if the details of the book which has id 3 is required enter the link as
 
 ![Output](https://i.ibb.co/RgD8jVC/Capture.png)
 
+If any number greater than 5 is put it will display a message "No such book, Please enter a value from 0-5 or 'all' to list all books".
+
+If a string is passed it will display a message "Please enter a numeric value from 0-5 or 'all' to list all books".
+
 The Dockerfile for this project is available.
 
 The Docker image is available publicly at https://hub.docker.com/repository/docker/plaulkar/http-api
