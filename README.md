@@ -37,3 +37,15 @@ Once the container is deployed enter below link to view the API
 http://[localhost or host ip]:8000/http_api/v1/books/all to view all books
 
 To get details of books of id between 0-5 visit http://[localhost or host ip]:8000/http_api/v1/books/[id]
+
+Kubernetes deployment and service YAML file is also available.
+
+The service has been deployed as node port service listening on port 30000.
+
+To run a kubernetes deployment enter below command
+
+kubectl create -f http-api-k8s-deployment.yml
+
+This will create a deployment with 1 replica and a node port service.
+
+
