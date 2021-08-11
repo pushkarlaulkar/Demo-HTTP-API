@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: http-api       
+  labels:          
+    app: http-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: http-api
+  template:
+    metadata:
+      labels:
+        app: http-api                                                                                      
+    spec:                                                                                   
+      containers:
+      - name: http-api
+        image: plaulkar/http-api:latest
+        ports:
+        - containerPort: 8000
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: http-api 
+spec:
+  selector:
+    app: http-api
+  ports:
+  - protocol: TCP
+    port: 8000
+    targetPort: 8000
+    nodePort: 30000
+  type: NodePort
