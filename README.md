@@ -6,7 +6,7 @@ The working demo can be found at this [link](https://demo-http-api.herokuapp.com
 
 The demo has been on hosted on Heroku.
 
-When the above link is opened the below output is expected. It shows a JSON output of 6 books which is a random data to showcase the implementation of API.
+When the above link is opened the below output is expected. It shows a JSON output of details of 6 books which is a random data to showcase the implementation of API.
 
 ![Output](https://i.ibb.co/dMSkLCN/Capture.png)
 
