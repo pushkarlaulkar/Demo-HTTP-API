@@ -19,18 +19,3 @@ spec:
         image: plaulkar/http-api:latest
         ports:
         - containerPort: 8000
-
----
-kind: Service
-apiVersion: v1
-metadata:
-  name: http-api 
-spec:
-  selector:
-    app: http-api
-  ports:
-  - protocol: TCP
-    port: 8000
-    targetPort: 8000
-    nodePort: 30000
-  type: NodePort
