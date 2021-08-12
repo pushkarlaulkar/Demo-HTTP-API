@@ -54,9 +54,15 @@ To run a kubernetes deployment enter below command
 
 kubectl create -f http-api-k8s-deployment.yml
 
-This will create a deployment with 1 replica and a node port service.
+This will create a deployment with 1 replica.
 
-Once the deployment is deployed enter below link to view the API
+To create a service entre below command
+
+kubectl create -f http-api-k8s-service.yml
+
+This will create a service of type node port listening on port 30000.
+
+Once the deployment and the service is deployed enter below link to view the API
 
 http://[localhost or host ip]:30000/http_api/v1/books/all to view all books
 
