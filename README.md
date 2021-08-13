@@ -29,7 +29,7 @@ If a string is passed it will display a message "Please enter a numeric value fr
 
 The Dockerfile for this project is available.
 
-The Docker image is available publicly at https://hub.docker.com/repository/docker/plaulkar/http-api
+The Docker image is available publicly at https://hub.docker.com/r/plaulkar/http-api
 
 To run a container from this image, enter below command
 
