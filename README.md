@@ -4,7 +4,7 @@ This is a demo of an HTTP API creation using Django Framework
 
 The working demo can be found at this [link](https://demo-http-api.herokuapp.com/http_api/v1/books/all). Use Firefox browser to view the JSON outputs.
 
-The demo has been on hosted on Heroku. Kindly wait for some time to load the API webiste since Heroku puts your website to sleep after 30 minutes of inactivity.
+The demo has been on hosted on Heroku. Kindly wait for some time to load the API website since Heroku puts your website to sleep after 30 minutes of inactivity.
 
 When the above link is opened the below output is expected. It shows a JSON output of details of 6 books which is a random data to showcase the implementation of API.
 
