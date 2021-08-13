@@ -56,7 +56,7 @@ kubectl create -f http-api-k8s-deployment.yml
 
 This will create a deployment with 1 replica.
 
-To create a service entre below command
+To create a service enter below command
 
 kubectl create -f http-api-k8s-service.yml
 
