@@ -52,13 +52,13 @@ The service has been deployed as node port service listening on port 30000.
 
 To run a kubernetes deployment enter below command
 
-kubectl create -f http-api-k8s-deployment.yml
+`kubectl create -f http-api-k8s-deployment.yml`
 
 This will create a deployment with 1 replica.
 
 To create a service enter below command
 
-kubectl create -f http-api-k8s-service.yml
+`kubectl create -f http-api-k8s-service.yml`
 
 This will create a service of type node port listening on port 30000.
 
