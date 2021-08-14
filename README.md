@@ -33,7 +33,7 @@ The Docker image is available publicly at https://hub.docker.com/r/plaulkar/http
 
 To run a container from this image, enter below command
 
-'docker run -d --name http-api -p 8000:8000 plaulkar/http-api:latest'
+`docker run -d --name http-api -p 8000:8000 plaulkar/http-api:latest`
 
 Container name is http-api, port at which both the host and the container will listen to is 8000.
 
